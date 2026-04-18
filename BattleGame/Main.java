@@ -52,7 +52,7 @@ public class Main
             System.out.println(you.name+" HP: "+you.health+" | "+enemy.name+" HP: "+enemy.health);
 
             System.out.println("Choose action:");
-            System.out.println("1 Attack");
+            System.out.println("Press 1 to Attack");
             int action=sc.nextInt();
 
             if(action!=1)
