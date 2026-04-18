@@ -9,9 +9,7 @@ class Warrior extends Character implements Attackable
     }
 
     public int attack()
-    {
-        if(random chance)
-            
-        return 15+r.nextInt(11);
+    { 
+        return (15+r.nextInt(11));
     }
 }
